@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução - Pantanal</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(biomapantanal7.png); /* URL da imagem de fundo */
+            background-size: cover; /* Faz a imagem cobrir toda a área */
+            background-position: center; /* Centraliza a imagem */
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, 0.6); /* Camada branca semi-transparente */
+        }
+
+        .introducao {
+            position: relative;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.9); /* Fundo branco semi-transparente */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            max-width: 600px; /* Largura máxima */
+            z-index: 1; /* Faz o texto ficar acima da camada de sobreposição */
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #2b5d34; /* Verde escuro */
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #4b8c47; /* Verde médio */
+            line-height: 1.5; /* Melhor espaçamento entre linhas */
+        }
+
+        .link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4b8c47; /* Botão verde */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .link:hover {
+            background-color: #3e7c39; /* Verde mais escuro ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="introducao">
+        <h1>Introdução ao Pantanal</h1>
+        <p>
+            O Pantanal é um dos maiores ecossistemas úmidos do planeta, 
+            abrigando uma rica diversidade de flora e fauna. Com sua 
+            vasta extensão, que abrange partes do Brasil, Paraguai e 
+            Bolívia, esse paraíso natural é conhecido por sua beleza 
+            exuberante e sua importância ecológica. A cada estação, 
+            o Pantanal se transforma, revelando paisagens deslumbrantes e 
+            oportunidades únicas de observação de vida selvagem.
+        </p>
+        <p>
+            Neste livro, convidamos você a explorar as maravilhas do 
+            Pantanal, suas águas, seus habitantes e a fragilidade deste 
+            ecossistema que precisa ser preservado. Prepare-se para uma 
+            jornada inesquecível!
+        </p>
+        <a href="./Pantanal4.html" class="link">Próxima Página</a>
+    </div>
+</body>
+</html>

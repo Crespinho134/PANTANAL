@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7e0; /* Fundo esverdeado */
+            color: #2c3e50; /* Cor das letras */
+            padding: 20px;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .image-container {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.5s;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.05); /* Animação de zoom */
+        }
+
+        .image-container a {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            background-color: #4caf50; /* Botão verde */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .image-container a:hover {
+            background-color: #388e3c; /* Efeito hover no botão */
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4caf50; /* Botão verde */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            margin: 20px auto;
+            transition: background-color 0.3s;
+        }
+
+        .back-button:hover {
+            background-color: #388e3c; /* Efeito hover no botão */
+        }
+    </style>
+</head>
+<body>
+    <h1>ALGUMAS NOTÍCIAS SOBRE O PANTANAL!</h1>
+    <div class="container">
+        <div class="image-container">
+                <img src="jacaré.png" alt="Imagem 1">
+            </a>
+            <a href="https://www12.senado.leg.br/noticias/materias/2020/11/12/no-dia-do-pantanal-senadores-destacam-necessidade-de-preservacao" target="_blank">Visitar Site 1</a>
+        </div>
+        <div class="image-container">
+            
+                <img src="download15.png" alt="Imagem 2">
+            </a>
+            <a href="https://www.nsctotal.com.br/noticias/pantanal-conheca-o-principal-destino-de-turismo-ecologico-do-pais" target="_blank">Visitar Site 2</a>
+        </div>
+        <div class="image-container">
+            
+                <img src="Pantanal33.png" alt="Imagem 3">
+            </a>
+            <a href="https://www.imasul.ms.gov.br/hoje-e-o-dia-do-pantanal-patrimonio-da-humanidade-e-reserva-da-biosfera/" target="_blank">Visitar Site 3</a>
+        </div>
+        <div class="image-container">
+            
+                <img src="download11.png" alt="Imagem 4">
+            </a>
+            <a href="https://noticias.uol.com.br/ultimas-noticias/deutschewelle/2024/06/18/por-que-pantanal-pode-viver-pior-temporada-de-fogo-em-2024.htm" target="_blank">Visitar Site 4</a>
+        </div>
+        <div class="image-container">
+            
+                <img src="images133.png" alt="Imagem 5">
+            </a>
+            <a href="https://forumanimal.org/site/2023/11/02/um-mes-de-novas-queimadas-no-pantanal-a-fauna-silvestre-agoniza-em-meio-ao-fogo-fumaca-e-morte/" target="_blank">Visitar Site 5</a>
+        </div>
+        <div class="image-container">
+            
+                <img src="images333.png" alt="Imagem 6">
+            </a>
+            <a href="https://www.cnnbrasil.com.br/tudo-sobre/pantanal/" target="_blank">Visitar Site 6</a>
+        </div>
+    </div>
+    
+    <a href="./PANTANAL_PRINCIPAL.html" class="back-button">Voltar para a Página Inicial</a>
+</body>
+</html>
